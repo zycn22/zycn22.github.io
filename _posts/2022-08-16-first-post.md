@@ -65,4 +65,4 @@ github: amaynez/GenericNeuralNetwork/
 答：SWIN
 
 
-！[real iKun]({{site.url}}/img/posts/20220816/kun.jpg)
+<center><img src="./assets/img/posts/20220816/kun.jpg"></center>
