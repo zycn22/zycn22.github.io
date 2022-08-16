@@ -60,4 +60,4 @@ excerpt: 一篇测试文档
 答：SWIN
 
 
-！[reall iKun]({{site.url}}/assets/img/2022-8-16一篇测试文档/坤坤.jpg)
+！[reall iKun]({{site.url}}/assets/img/2022-8-16/kun.jpg)
