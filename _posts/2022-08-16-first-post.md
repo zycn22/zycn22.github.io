@@ -1,14 +1,8 @@
 ---
 layout: post
-read_time: true
-show_date: true
 title:  一篇测试文档
 date:   2022-8-16 21：26
-description: Single neuron perceptron that classifies elements learning quite quickly.
-img: posts/20210228/MLLibrary.jpg 
-tags: [machine learning, coding, neural networks, python]
-author: Armando Maynez
-github: amaynez/GenericNeuralNetwork/
+author: Yechengnuo Zhang
 ---
 ## 标题XD1
 
