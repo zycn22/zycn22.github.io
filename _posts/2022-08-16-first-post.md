@@ -65,4 +65,4 @@ github: amaynez/GenericNeuralNetwork/
 答：SWIN
 
 
-<center><img src="./assets/img/posts/20220816/kun.jpg"></center>
+<center><img src="./assets/images/posts/20220816/kun.jpg"></center>

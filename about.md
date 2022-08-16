@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: About
+permalink: /about/
 ---
 
-This is an example page!
-
-Actually, it has the same layout of a post...
+Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
