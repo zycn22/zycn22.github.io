@@ -27,4 +27,4 @@ author: Yechengnuo Zhang
 
 3. An adder.一个加法器，把刚才和weight相乘的input全部加起来。这里加完之后输出结果是v,英文里一般叫这个v是local field。
 
-3. 
+4. 
