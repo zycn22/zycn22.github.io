@@ -14,7 +14,7 @@ disqus_shortname  : ""
 postshare_enabled : false
 
 # Build settings
-permalink   : /blob/main/_posts/
+permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
