@@ -1,12 +1,11 @@
-source "https://gems.ruby-china.com"
-gemspec
+source 'https://gems.ruby-china.com'
+
+gem 'jekyll'
+
 group :jekyll_plugins do
-    gem "jekyll-sitemap"
-    gem "bourbon"
-    gem "jekyll-paginate"
+  gem "jekyll-paginate"
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
 end
-gem 'html-proofer'
-gem 'tzinfo'
-gem 'tzinfo-data'
 
 gem "webrick", "~> 1.7"
