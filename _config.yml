@@ -1,89 +1,64 @@
 # Site settings
-title: The Minimum Viable Model
-description: 'Artificial Intelligence trends and concepts made easy.' # this means to ignore newlines until "baseurl:"
-permalink: ':title:output_ext'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://the-mvm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+title_left    : "Zycn's  "
+title_right   : "Blog" # default: ""
+description   : "Minimalist Jekyll theme for technical writing blog."
+keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url           : https://github.com/zycn22/zycn22.github.io
+#url           : https://heiswayi.github.io/thinkspace # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-# Night/Dark mode
-# Default mode is "auto", "auto" is for auto nightshift
-# (19:00 - 07:00), "manual" is for manual toggle, and
-# "on/off" is for default on/off.
-#
-# Whatever the user's choice is, it will supersede the
-# default setting of the site and be kept during the
-# visit (session). Only the dark mode setting is "manual",
-# it will be always kept on every visit (i.e. no matter
-# the browser is closed or not)
-night_mode: "auto"
-
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
-highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
-
-# Author settings
-author: Armando Maynez # add your name
-author-pic: Myself_Neon_grey.jpg
-about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, machine learning, artificial intelligence and reinforcement learning. 17+ years of experience working in multinational corporations.
-
-# Contact links
-email: armando.maynez@gmail.com # Add your Email address
-phone: # Add your Phone number
-website: https://amaynez.github.io # Add your website
-linkedin: amaynez # Add your Linkedin handle
-github: amaynez # Add your Github handle
-twitter: '@MvmThe' # Add your Twitter handle
-bandcamp: armandomaynez # Add your Bandcamp username
-stackoverflow: stackoverflow # Add your stackoverflow account
-
-# Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
-
-# Tracker
-analytics: G-R8SZS2YBZK
-fbadmin: ar.maybach
-
-# Paginate
-paginate: 6
-paginate_path: 'page:num'
-words_per_minute: 200
-
-# Comments
-comments: utteranc  #[disqus, utteranc]
-comments_opts:
-  comments_curtain: yes # leave empty to show the disqus embed directly
-  repo: # The GitHub repo URL.  https://utteranc.es/
-  issue_term: # The GitHub issue label
-  label: # The GitHub comments label
-  theme: # The GitHub comment's there. e.g. github-dark
-  # Disqus
-  discus_identifier: # Add your discus identifier
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
 
 # Build settings
-markdown: kramdown
-mathjax: true
-highlighter: rouge
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
+#permalink   : 
+markdown    : kramdown
+highlighter : rouge
 
-# Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+source      : ./
+destination : ./_site
 
-category_archive:
-  type: liquid
-  path: /categories/
-
+# Sass configuration
 sass:
-  style: compressed
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Yechengnuo Zhang"
 
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
   - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
 
-include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"
