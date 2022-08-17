@@ -3,9 +3,8 @@ title_left    : "Zycn's  "
 title_right   : "Blog" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://github.com/zycn22/zycn22.github.io
-#url           : https://heiswayi.github.io/thinkspace # site url
-baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+url           : https://heiswayi.github.io/thinkspace # site url
+baseurl: "/" # the subpath of your site, e.g. /blog
 cover         : "" # image uri like logo/cover image for site seo
 
 google_analytics  : UA-XXXXX-XX
@@ -15,7 +14,7 @@ disqus_shortname  : ""
 postshare_enabled : false
 
 # Build settings
-permalink   : :title/
+permalink: ':title:output_ext'
 markdown    : kramdown
 highlighter : rouge
 
