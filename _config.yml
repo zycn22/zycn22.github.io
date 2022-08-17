@@ -1,10 +1,9 @@
 # Site settings
-title_left    : "Zycn's  "
-title_right   : "Blog" # default: ""
+title_left    : "Think"
+title_right   : "space" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://github.com/zycn22/zycn22.github.io
-#url           : https://heiswayi.github.io/thinkspace # site url
+url           : https://heiswayi.github.io/thinkspace # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -29,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Yechengnuo Zhang"
+  name     : "John Doe"
 
 plugins:
   - jekyll-sitemap
